@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Setup Node.jS environment
-        uses: actions/setup=node@v2.1.0
+        uses: actions/setup-node@v1
 
       - uses: actions/checkout@v2
         with:
@@ -23,7 +23,7 @@ jobs:
 
       - name: Navigate to functions folder
         run: cd functions
-            
+
       - uses: akhileshns/heroku-deploy@v3.2.6 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
