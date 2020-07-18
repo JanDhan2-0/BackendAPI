@@ -34,6 +34,6 @@ app.get('/',(req,res)=>{
 //Uncomment this to deploy.
 // exports.app = config.functions.https.onRequest(app)
 
-app.listen(5000,()=>{
+app.listen(5000||process.env.PORT,()=>{
   console.log(`Server started at port 5000`);
 }); 

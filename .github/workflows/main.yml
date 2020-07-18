@@ -21,11 +21,10 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Navigate to functions sub-folder
-        run: cd functions
-
-      - uses: akhileshns/heroku-deploy@v3.2.6 # This is the action
+      - uses: onekiloparsec/heroku-node-deploy-subfolder@v1.0.4
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "jandhan2" #Must be unique in Heroku
-          heroku_email: "jandhan2sih@gmail.com"
+          api_key: ${{secrets.HEROKU_API_KEY}}
+          email: "jandhan2sih@gmail.com"
+          app_name: "jandhan2"
+          branch: "master"
+          subfolder: "functions"
