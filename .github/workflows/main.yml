@@ -21,7 +21,7 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Navigate to functions folder
+      - name: Navigate to functions sub-folder
         run: cd functions
 
       - uses: akhileshns/heroku-deploy@v3.2.6 # This is the action
