@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors')
 const config = require('./db/config');
-
+const port = process.env.PORT||5000;
 
 config.admin.initializeApp({
   credential: config.admin.credential.cert(config.serviceAccount),
@@ -34,6 +34,6 @@ app.get('/',(req,res)=>{
 //Uncomment this to deploy.
 // exports.app = config.functions.https.onRequest(app)
 
-app.listen(5000||process.env.PORT,()=>{
+app.listen(port,()=>{
   console.log(`Server started at port 5000`);
 }); 
