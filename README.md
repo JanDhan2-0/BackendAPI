@@ -140,5 +140,10 @@ Status
         url: localhost:5000/account/bank/:bank/documentOtp/:otp/getReport
         usual parameters. Send the report.
         This might not work - If not working, please let me know. I will fix it.
+    
+    4. GET All Account Uploads.
+        url: localhost:5000/account/bank/:bank/getAll
+        bank: SBI/HDFC/BOB
+        This will give all the document uploads.
 =======
 >>>>>>> 200474501f46593646e9da8ad63dfbbd6bc28be9
