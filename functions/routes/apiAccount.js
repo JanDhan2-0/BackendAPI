@@ -25,6 +25,30 @@ router.get('/bank/:bank/documentOtp/:otp/getData',async(req,res)=>{
     }
 });
 
+router.get('/bank/:bank/getAll',async (req,res)=>{
+    const collection = db.collection('Banks').doc(req.params.bank).collection('Account');
+    let response = [];
+        await collection.get().then(querySnapshot => {
+            let docs = querySnapshot.docs;
+            for(let doc of docs){
+                        const item = {
+                            "otp":doc.id,
+                            "formId": doc.data().formId,
+                            "date":doc.data().account_creation_date,
+                            "name": doc.data().name,
+                            "phoneNo":doc.data().phone,
+                            "purpose":doc.data().purpose,
+                            "status":doc.data().status
+                        }
+                        response.push(item);
+                    }
+                    return response;
+            });
+             //each should return the value.
+            res.send({"response":response});
+        });
+
+
 router.post('/bank/:bank/documentOtp/:otp/changeStatus/:status',async(req,res)=>{
     try{
         let _bankName = req.params.bank;
