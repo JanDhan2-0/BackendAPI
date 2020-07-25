@@ -56,7 +56,7 @@ router.post('/postUpdate',async (req,res)=>{
         }
         console.log(data);
 //         var id = Math.floor(100000 + Math.random() * 900000)
-        await db.collection('bankUpdates').doc(req.body.id).create(data);
+        await db.collection('bankUpdates').doc('/'+req.body.id+'/').create(data);
         return res.send({"message":"success"});
    }
    catch(error){
