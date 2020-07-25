@@ -55,7 +55,8 @@ router.post('/postUpdate',async (req,res)=>{
             additionalFileUrl: req.body.additionalFileUrl
         }
         console.log(data);
-        await db.collection('bankUpdates').doc('/'+req.body.id+'/').create(data);
+        var id = Math.floor(100000 + Math.random() * 900000)
+        await db.collection('bankUpdates').doc('/'+id+'/').create(data);
         return res.send({"message":"success"});
    }
    catch(error){
