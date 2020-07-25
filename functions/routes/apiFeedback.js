@@ -5,7 +5,6 @@ const { app } = require('firebase-admin');
 const { request } = require('express');
 const db = config.admin.firestore();
 
-
 router.get('/bank/:bank/touchPoint/:touchPoint/reviews',async (req,res)=>{
     console.log(req.params.bank);
     const collection = db.collection('Banks').doc(req.params.bank).collection('Feedback');
