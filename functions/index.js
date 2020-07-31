@@ -20,6 +20,7 @@ const messageRoutes = require('./routes/apiMessage');
 const feedbackRoutes = require('./routes/apiFeedback');
 const missingRoutes = require('./routes/apiMissing');
 const requestRoutes = require('./routes/apiRequest');
+const schemesRoutes = require('./routes/apiSchemes');
 const authRoutes = require('./routes/apiAuth');
 
 const app = express();
@@ -33,6 +34,7 @@ app.use('/feedback',feedbackRoutes);
 app.use('/missing',missingRoutes);
 app.use('/request',requestRoutes);
 app.use('/authentication',authRoutes);
+app.use('/schemes',schemesRoutes);
 
 app.get('/',(req,res)=>{
     res.send("Welcome to Jan Dhan Darshak 2.0 and Hello World");
