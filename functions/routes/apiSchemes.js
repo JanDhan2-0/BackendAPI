@@ -36,7 +36,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -44,7 +45,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -55,6 +57,7 @@ router.get('/getSchemes', async (req,res)=>{
                 }
                 else{
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -62,7 +65,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -70,7 +74,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -83,6 +88,7 @@ router.get('/getSchemes', async (req,res)=>{
             else if(area == 1 && gender == 2){
                 if(age < 60){
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -90,7 +96,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -98,7 +105,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -108,8 +116,8 @@ router.get('/getSchemes', async (req,res)=>{
                     }
                 }
                 else{
-                    
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -117,7 +125,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -125,7 +134,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -138,6 +148,7 @@ router.get('/getSchemes', async (req,res)=>{
             else if(area == 2 && gender == 1){
                 if(age < 60){
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -145,7 +156,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -153,7 +165,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -164,6 +177,7 @@ router.get('/getSchemes', async (req,res)=>{
                 }
                 else{
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -171,7 +185,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -179,7 +194,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -193,6 +209,7 @@ router.get('/getSchemes', async (req,res)=>{
                 if(age < 60){
 
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -200,7 +217,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -208,7 +226,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -219,6 +238,7 @@ router.get('/getSchemes', async (req,res)=>{
                 }
                 else{
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -226,7 +246,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -234,7 +255,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -250,6 +272,7 @@ router.get('/getSchemes', async (req,res)=>{
                 if(age < 60){
 
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -257,7 +280,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -265,7 +289,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -277,6 +302,7 @@ router.get('/getSchemes', async (req,res)=>{
                 else{
 
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -284,7 +310,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -292,7 +319,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -305,6 +333,7 @@ router.get('/getSchemes', async (req,res)=>{
             else if(area == 1 && gender == 2){
                 if(age < 60){
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -312,7 +341,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -320,7 +350,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -331,6 +362,7 @@ router.get('/getSchemes', async (req,res)=>{
                 }
                 else{
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -338,7 +370,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -346,7 +379,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -359,6 +393,7 @@ router.get('/getSchemes', async (req,res)=>{
             else if(area == 2 && gender == 1){
                 if(age < 60){
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -366,7 +401,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -374,7 +410,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -386,6 +423,7 @@ router.get('/getSchemes', async (req,res)=>{
                 else{
                     
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -393,7 +431,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -401,7 +440,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -413,8 +453,8 @@ router.get('/getSchemes', async (req,res)=>{
             }
             else{
                 if(age < 60){
-
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -422,7 +462,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -430,7 +471,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -442,6 +484,7 @@ router.get('/getSchemes', async (req,res)=>{
                 else{
                     
                     data1 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -449,7 +492,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data2 =  {
+                    data2 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
@@ -457,7 +501,8 @@ router.get('/getSchemes', async (req,res)=>{
                         "eligibility":"Any Indian citizen between 18 and 60 years can join NPS. The only condition is that the person must comply with know your customer (KYC) norms.",
                         "documentsRequired":"1. PRAN card (original)\n2. Attested copy of proof of identity\n3. Attested copy of proof of address\n4. A cancelled cheque"
                     }
-                     data3 =  {
+                    data3 = {
+                        "image":"https://www.sentinelassam.com/wp-content/uploads/2020/01/Cabinet-Secretariat-Government-of-India.jpg",
                         "title":"National Payment Scheme",
                         "tooltip":"National Pension System or NPS is a government-sponsored pension scheme.",
                         "Description":"National Pension System or NPS is a government-sponsored pension scheme. It was launched in January 2004 for government employees. However, in 2009, it was opened to all sections. The scheme allows subscribers to contribute regularly in a pension account during their working life. On retirement, subscribers can withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.",
