@@ -23,6 +23,7 @@ const requestRoutes = require('./routes/apiRequest');
 const schemesRoutes = require('./routes/apiSchemes');
 const authRoutes = require('./routes/apiAuth');
 const atmReportRoutes = require('./routes/apiAtmReport')
+const apiAppReviews = require('./routes/apiAppReview');
 
 const app = express();
 app.use(bodyParser.urlencoded({urlencoded: false}));
@@ -37,6 +38,7 @@ app.use('/request',requestRoutes);
 app.use('/authentication',authRoutes);
 app.use('/schemes',schemesRoutes);
 app.use('/atmData',atmReportRoutes);
+app.use('/appReview',apiAppReviews);
 
 app.get('/',(req,res)=>{
     res.send("Welcome to Jan Dhan Darshak 2.0 and Hello World");
