@@ -22,6 +22,7 @@ const missingRoutes = require('./routes/apiMissing');
 const requestRoutes = require('./routes/apiRequest');
 const schemesRoutes = require('./routes/apiSchemes');
 const authRoutes = require('./routes/apiAuth');
+const atmReportRoutes = require('./routes/apiAtmReport')
 
 const app = express();
 app.use(bodyParser.urlencoded({urlencoded: false}));
@@ -35,12 +36,13 @@ app.use('/missing',missingRoutes);
 app.use('/request',requestRoutes);
 app.use('/authentication',authRoutes);
 app.use('/schemes',schemesRoutes);
+app.use('/atmData',atmReportRoutes);
 
 app.get('/',(req,res)=>{
     res.send("Welcome to Jan Dhan Darshak 2.0 and Hello World");
 });
 
 
-app.listen(port,()=>{
+app.listen(5000,()=>{
   console.log(`Server started at port 5000`);
 }); 
