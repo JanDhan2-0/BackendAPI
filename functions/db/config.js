@@ -4,8 +4,8 @@ const serviceAccount = require('../serviceAccountKey.json');
 const Nexmo = require('nexmo');
 
 const nexmo = new Nexmo({
-    apiKey: '7b415efd',
-    apiSecret: 'HOOYzZKFoVbwtm3H',
+    apiKey: '899352c0',
+    apiSecret: 'ce1zivIxNtiqSlE4',
   });
   
 const firebaseConfig = {
