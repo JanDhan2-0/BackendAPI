@@ -35,7 +35,7 @@ router.post('/feedbackNotifications',async (req,res)=>{
         
         ans = (await docRef.get()).data()['feedbacks']
             var options = {
-            uri: 'https://18ebd5d5d353.ngrok.io/notification',
+            uri: 'https://18ebd5d5d353.ngrok.io/notification/',
             method: 'POST',
             json: {
                 "feedbacks": ans
