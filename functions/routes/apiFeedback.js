@@ -4,6 +4,54 @@ const config = require('../db/config');
 const { app } = require('firebase-admin');
 const { request } = require('express');
 const db = config.admin.firestore();
+var http = require('http');
+const firebase = require('firebase/app');
+const { merge } = require('./apiAccount');
+var request1 = require('request');
+
+
+router.post('/feedbackNotifications',async (req,res)=>{
+    console.log("hi")
+    try{
+        //update things in database accodingly.
+        console.log("hia")
+        var feedback = req.body.feedback;
+        var deviceId = req.body.deviceId;
+        console.log(feedback)
+        console.log(deviceId)
+        var docRef = db.collection("devices").doc(deviceId);
+        docRef.get().then(function(doc) {
+            if (doc.exists) {
+                feedbacks = doc.data()['feedbacks']
+                feedbacks.push(feedback)
+                docRef.update({"feedbacks":feedbacks},{merge:true})
+            } else {
+                docRef.set({"feedbacks":[feedback]});
+            }
+        }).catch(function(error) {
+            console.log("Error getting document:", error);
+        });
+        
+        ans = (await docRef.get()).data()['feedbacks']
+            var options = {
+            uri: 'http://be5fff03affd.ngrok.io/',
+            method: 'POST',
+            json: {
+                "feedbacks": ans
+            }
+            };
+            request1(options, function (error, response, body) {
+            if (!error && response.statusCode == 200) {
+                console.log(body) // Print the shortened url.
+                docRef.update({"Interests":body.Interests},{merge:true})
+            }
+                res.send({"result":body.Interests})
+            });
+    }
+    catch(error){
+        res.send({"result":"error"});
+    }
+});
 
 router.get('/bank/:bank/touchPoint/:touchPoint/reviews',async (req,res)=>{
     console.log(req.params.bank);
