@@ -136,7 +136,7 @@ router.post('/sendOtp', async (req, res) => {
 
 })
 
-router.post('/sendMsg',(req,res)=>{
+router.post('/sendMsg',async (req,res)=>{
     try{
         const from = 'Jan Dhan Darshak 2.0';
         var number = req.body.caller;
