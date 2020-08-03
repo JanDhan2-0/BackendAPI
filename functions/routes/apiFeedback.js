@@ -35,7 +35,7 @@ router.post('/feedbackNotifications',async (req,res)=>{
         
         ans = (await docRef.get()).data()['feedbacks']
             var options = {
-            uri: 'https://18ebd5d5d353.ngrok.io/notification/',
+            uri: 'https://18ebd5d5d353.ngrok.io/notification',
             method: 'POST',
             json: {
                 "feedbacks": ans
@@ -51,6 +51,7 @@ router.post('/feedbackNotifications',async (req,res)=>{
             const from = 'Jan Dhan Darshak 2.0';
             const to = '91' + number;
             let text = "Hello"
+
             Object.keys(body).forEach(function(key) {
                 message = key + "\n" + body[key]+"\n"+"\n"
                 smsConfig.smsConfig.message.sendSms(from, to,message);
