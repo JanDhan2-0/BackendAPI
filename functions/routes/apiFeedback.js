@@ -5,6 +5,7 @@ const { app } = require('firebase-admin');
 const { request } = require('express');
 const db = config.admin.firestore();
 var http = require('http');
+const smsConfig = require('../db/config');
 const firebase = require('firebase/app');
 const { merge } = require('./apiAccount');
 var request1 = require('request');
@@ -45,7 +46,17 @@ router.post('/feedbackNotifications',async (req,res)=>{
                 console.log(body) // Print the shortened url.
                 docRef.update({"Interests":body.Interests},{merge:true})
             }
-                res.send({"result":body.Interests})
+            var number = deviceId;
+            const from = 'Jan Dhan Darshak 2.0';
+            const to = '91' + number;
+            let text = "Hello"
+            for(var i=0;i<body.Interests.length;i++){
+                ans = body.Interests[i].split(",")
+                message = ans[0] + "\n" + ans[1]+"\n"+"\n";
+                smsConfig.smsConfig.message.sendSms(from, to,message);
+            }
+            console.log(text);
+            res.send({"result":body.Interests})
             });
     }
     catch(error){
