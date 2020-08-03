@@ -136,4 +136,16 @@ router.post('/sendOtp', async (req, res) => {
 
 })
 
+router.post('/sendMsg',(req,res)=>{
+    try{
+        const from = 'Jan Dhan Darshak 2.0';
+        var number = req.body.caller;
+        var message = req.body.message;
+        smsConfig.smsConfig.message.sendSms(from, number, message);
+        return res.send({ "message": "success" });
+    } catch (error) {
+        console.log("error");
+        res.send({ "message": "Some error" });
+    }
+})
 module.exports = router;
