@@ -35,7 +35,7 @@ router.post('/feedbackNotifications',async (req,res)=>{
         
         ans = (await docRef.get()).data()['feedbacks']
             var options = {
-            uri: 'http://be5fff03affd.ngrok.io/',
+            uri: 'https://18ebd5d5d353.ngrok.io/notification',
             method: 'POST',
             json: {
                 "feedbacks": ans
@@ -43,20 +43,20 @@ router.post('/feedbackNotifications',async (req,res)=>{
             };
             request1(options, function (error, response, body) {
             if (!error && response.statusCode == 200) {
+                console.log("HI");
                 console.log(body) // Print the shortened url.
-                docRef.update({"Interests":body.Interests},{merge:true})
+                docRef.update({"Interests":body},{merge:true})
             }
             var number = deviceId;
             const from = 'Jan Dhan Darshak 2.0';
             const to = '91' + number;
             let text = "Hello"
-            for(var i=0;i<body.Interests.length;i++){
-                ans = body.Interests[i].split(",")
-                message = ans[0] + "\n" + ans[1]+"\n"+"\n";
+            Object.keys(body).forEach(function(key) {
+                message = key + "\n" + body[key]+"\n"+"\n"
                 smsConfig.smsConfig.message.sendSms(from, to,message);
-            }
+             });
             console.log(text);
-            res.send({"result":body.Interests})
+            res.send({"result":body})
             });
     }
     catch(error){
